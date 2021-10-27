@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
+   width="250mm"
    height="297mm"
-   viewBox="0 0 210 297"
+   viewBox="0 0 250 297"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
        x="10.021472"
        y="63.317486" />
     <rect
-       style="fill:#000080;stroke-width:0.264583"
+       style="fill:#025080;stroke-width:0.264583"
        id="rect644"
        width="52.840492"
        height="16.398779"
@@ -42,13 +42,13 @@
        x="13.665644"
        y="157.61041" />
     <rect
-       style="fill:#000080;stroke-width:0.264583"
+       style="fill:#000080;stroke-width:1"
        id="rect650"
        width="49.65184"
        height="15.943255"
        x="14.121165"
-       y="171.73158" />
-    <rect
+       y="181.73158" />
+    <title
        style="fill:#000080;stroke-width:0.264583"
        id="rect652"
        width="54.662575"
