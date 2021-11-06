@@ -1,0 +1,64 @@
+*{
+	--main-bg-color: #6dd0bb
+}
+
+article p{
+	--main-bg-color: hsl(108, 100%, 87%);
+}
+
+
+.img_in_text{
+	height: 1em;
+	object-fit: contain
+}
+
+.small-cat{
+	height: 1rem;
+	object-fit: contain
+}
+
+#Котики{
+	font-size: 2cm;
+}
+
+p.beautiful{
+	background-color: var(--main-bg-color);
+}
+
+article.beautiful > h3{
+	font-size: calc(100% + 10px);
+
+}
+table.odd td{
+	width: 20px;
+	cursor: pointer;
+}
+
+table.odd td:hover{
+	color: white;
+	background-color: black;
+}
+
+table.odd td:active{
+	visibility: hidden ;
+	cursor: wait;
+}
+blockquote::before{
+	content: "\2712  ";
+}
+blockquote::after{
+	content: " \2B53";
+}
+blockquote + p{
+	background-color: rgb(255, 255, 187);
+
+}
+.extrovert{
+	display: inline; 
+	height: 100px;
+}
+.introvert{
+	display: block;
+	height: 100px;
+
+}

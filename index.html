@@ -2,12 +2,23 @@
 
 <html>
   <head>
-    <title>Мой сайт</title>
+    <title>&gtlPar;&Sscr;&Iscr;&Tscr;&Escr;&ltrPar;</title>
+    <link rel="stylesheet" href="mysite.css">
     <meta charset="utf-8">
   </head>
 
   <body>
-    <blockquote>Сколько не прячь чувств, а трусы все равно видно</blockquote>
+    <h1 align="centre">Добро пожаловать на мой сайт</h1>
+    <blockquote style=" 
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+        background-color: rgb(255, 255, 187);
+        width: 15cm;
+        font-size: 0.5cm;
+        text-align: center;
+        display: inline-block;"
+        > Сколько не прячь чувств, а трусы все равно видно.</blockquote>
     <p><i> - Джейсон Стетхем </i></p>
     <section>
       <h1>Пара слов обо мне</h1>
@@ -19,8 +30,11 @@
 
     <section>
       <h2>Мои качества</h2>
-      <p>Я обладаю шикоким спектром различных отличительных особенностей.</p>
+      <p class="beautiful">Я обладаю шикоким спектром различных отличительных особенностей.</p>
+      <p class="beautiful"> У меня красивый цвет</p>
       <article>
+      <p style="position: absolute;top: 200px;right: 400px;">Улетел куда-то</p>
+      <p style="position: fixed; bottom: 50px; right: 200px;">Купи слона!</p>
         <h3>Мои предпочтения</h3>
         <p>Я люблю цифры. Топ 5 моих любимых цифр:</p>
         <ol>
@@ -30,25 +44,78 @@
           <li>0</li>
           <li>2</li>
         </ol>
-        <p>Я люблю матрицы. Мой самый любимый вид матриц - трехдиагональные. Показательный пример трехдиагональной матрицы:</p>
-        <table style="background-color:#00FF00">
+        <p class="beautiful">Я тоже красивый, но по другому</p>
+        <p class="beautiful">Я люблю матрицы. Мой самый любимый вид матриц - трехдиагональные. Показательный пример трехдиагональной матрицы:</p>
+        <table class="odd">
           <tr>
             <td>100</td>
             <td>37.5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>          
+          <tr>
+            <td>22</td>
+            <td>866</td>
+            <td>11</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>          
+          <tr>
+            <td>0</td>
+            <td>66</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
-            <td>11</td>
-            <td>8</td>
-          </tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>          
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>34</td>
+            <td>-3</td>
+          </tr>         
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>18</td>
+            <td>6</td>
+          </tr>        
         </table>
+        <p id="Котики">А еще я люблю котиков.
+          <img src="2.jpg", class="img_in_text"> 
+          Очень <img src="3.jpg", class="img_in_text">  
+          сильно <img src="4.jpg", class="img_in_text">
+          люблю <img src="5.jpg", class="img_in_text"> котиков.
+          Даже маленьких <img src="1.jpg", class="small-cat">
+           </p>
       </article>
 
-      <article>
-        <h3>Мои таланты</h3>
+      <article class="beautiful">
+        <h3>Мои таланты (Я немного больше обычного)</h3>
+        <p style="display: inline-block;
+          position: relative;
+          top: 60px;
+          left: 40px;
+          background-color: lightgreen;">Уууу... Важный какой</p>
         <p>Я умею создавать шедевры: <img src="рисунок.svg" width="50" height="50">  и вставлять их на сайт внутрь текста</p>
-
         <p> И даже делать для них красивую подпись:</p>
         <figure>
+          <h3>Я обычного размера</h3>
           <img src="mona lisa.jpg"  width="250" height="150">
           <figcaption>Fig.1 - Ponomarev D., Mona Lisa.</figcaption>
         </figure>
@@ -56,6 +123,10 @@
       </article>
     </section>
 
+    <p>А тут экстраверты вынуждены тусоваться вместе:</p>
+    <p><img src="ex1.jpg" class="extrovert"><img src="ex2.jpg" class="extrovert"><img src="ex3.jpg" class="extrovert"></p>
+    <p>Интровертам и поодиночке хорошо:</p>
+    <p><img src="in1.jpg" class="introvert"><img src="in2.jpg" class="introvert"><img src="in3.jpg" class="introvert"></p>
 
   </body>
 </html>
