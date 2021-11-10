@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 let numberOfVictims = 0 //Обьявили глобальную переменную
 
 
@@ -42,10 +42,25 @@ catch(error){
 }
 
 {
+	gl = 37;
+}
+{
+	console.log("%d", gl);
+}
+
+{
 	let summ = (a,b) => (a+b);
 	console.log("%d", summ(1,3));
 	console.log("%s", summ("одно ","яблоко"));
 }
+
+function changePos(a,b,c){
+	let [x, y, z] = [a, b, c];
+	[x, y, z] = [z, x, y];
+	return [x, y, z];
+}
+console.log(changePos("as", "df", "gh"));
+
 
 {
 	console.log("%d", Math.sqrt(4));
