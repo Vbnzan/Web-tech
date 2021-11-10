@@ -1,4 +1,4 @@
-//"use strict";
+"use strict";
 let numberOfVictims = 0 //Обьявили глобальную переменную
 
 
@@ -42,7 +42,7 @@ catch(error){
 }
 
 {
-	gl = 37;
+	globalThis["gl"] = 36;
 }
 {
 	console.log("%d", gl);
