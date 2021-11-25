@@ -103,9 +103,17 @@ class Sepulki extends Bibki {
 
 //пункт 5
 {
-  let e = new Sepulki(0);
-  try {e.push("ss")} //push - метод объекта Array
-  catch(error) {console.log(error.name)}
+  function Yoba(){
+    this.a = "a";
+  }
+  function CoolYoba() {
+    Yoba.call(this);
+    this.cool = "да!"
+
+  }
+  let e = new CoolYoba();
+  
+  console.log(e);
 }
 //пункт 6
 {
