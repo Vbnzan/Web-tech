@@ -31,13 +31,13 @@ p.classList.toggle("fff")
 
 
 inp = document.querySelector("input");
-inp.addEventListener('keypress', counter, passive = true);
-inp.removeEventListener('keypress', counter, passive = true);
+inp.addEventListener('keypress', counter, {passive:true});
+inp.removeEventListener('keypress', counter, {passive:true});
 
 inp.parentNode.addEventListener('keypress', function(event) {
 						event.preventDefault();
 						console.log(arguments);
-					}, capture = true);
+					}, {capture:true});
 }
 
 function counter(){
