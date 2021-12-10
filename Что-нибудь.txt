@@ -3,3 +3,5 @@ Whose head was remarkably square:
       On the top, in fine weather,
       She wore a gold feather;
 Which dazzled the people of Ayr.
+
+Я - файл, что лежит на xampp сервере и открываается из браузера. Хотя это уже не важно, do_fetch2 сам по себе заданию удовлетворяет.
