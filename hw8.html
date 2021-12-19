@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+
+	</head>
+	<body>
+		<button onclick="fig(10,400)">Изменить точку</button>
+		<button onclick="draw()">Человечек</button>
+		<div>
+			<script>
+				function fig(x,y){
+	 				var element = document.getElementById("svg");
+					element.setAttribute('d', 'M 10 315,'+
+     			    	'L '+x+' '+y+','+
+           				'A 36 60 0 0 1 150.71 170.29,'+
+	           			'L 172.55 152.45,'+
+				        'A 30 50 -45 0 1 215.1 109.9')
+				}
+
+			</script>
+			
+			<svg height="300" width="300">
+			   <path id="svg" d="M 10 315, L 50 150, A 36 60 0 0 1 150.71 170.29, L 172.55 152.45, A 30 50 -45 0 1 215.1 109.9"
+			    stroke="lightblue" fill="transparent"/>
+			</svg>
+		</div>
+
+		
+
+		<div>
+			<script>
+				function draw() {
+					let canvas = document.getElementById('canvas');
+					if (canvas.getContext) {
+						let canv = canvas.getContext('2d');
+						    canv.fillStyle="blue"
+						    canv.fillRect(25,25, 100,100);
+						    canv.rotate(45 * Math.PI / 180);
+						    canv.fillStyle="yellow";
+						    canv.fillRect(100,-10, 20, 20);
+						    canv.rotate(-45 * Math.PI / 180);
+						    canv.beginPath();
+						    canv.ellipse(50, 50, 20, 10, 0, 0, 3);
+						    canv.fill();
+						    canv.beginPath();
+						    canv.ellipse(100, 50, 20, 10, 0, -3, 0, 1);
+						    canv.fill();
+					}
+				}
+			</script>
+			<canvas id="canvas", height="200" width="200"> </canvas>
+		</div>
+	</body>
+</html>
